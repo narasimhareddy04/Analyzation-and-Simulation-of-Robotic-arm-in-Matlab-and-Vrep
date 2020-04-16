@@ -1,4 +1,4 @@
-# Design-of-Robotic-Arm-using-MATLAB
+# Analyzation-and-Simulation-of-Robotic-arm-in-Matlab-and-Vrep
 A robotic arm with RRRPRR configuration(6 degrees of freedom) .Denavit Hartenberg matrices are used for movement.Newton-Raphson method used for solving Inverse Kinematics.
 Run function robo.m
 Input is 4x4 Matrix
@@ -11,4 +11,6 @@ theta3=rotation about z-axis in radians
 This gives orientation of end effector
 [x;y;z] are coordinates of end effector
 e.g. robo([T(0,0,0) [0;0;10];0 0 0 1])
-and it will show a arm in this position in MATLAB figure if possible ,else will get very close to it
+and it will show a arm in this position in MATLAB figure if possible ,else will get very close to it.
+Created an industrial office type environment in Vrep and had simulated a UR-5 robotic arm for pick and place operation using Peter Corke
+robotics toolbox in Matlab
