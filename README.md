@@ -12,5 +12,6 @@ This gives orientation of end effector
 [x;y;z] are coordinates of end effector
 e.g. robo([T(0,0,0) [0;0;10];0 0 0 1])
 and it will show a arm in this position in MATLAB figure if possible ,else will get very close to it.
+
 Created an industrial office type environment in Vrep and had simulated a UR-5 robotic arm for pick and place operation using Peter Corke
 robotics toolbox in Matlab
